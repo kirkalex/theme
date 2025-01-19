@@ -95,8 +95,8 @@ jobs:
 # And committing it all!
       - name: Push files to the github, replacing the previous
         run: |
-          git config --global user.name "VagueParade"
-          git config --global user.email "166325657+VagueParade@users.noreply.github.com"
+          git config --global user.name "kirkalex"
+          git config --global user.email "5875926+kirkalex@users.noreply.github.com"
 
           git add -A
           git commit -m "Action with generated files"
